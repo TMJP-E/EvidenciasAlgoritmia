@@ -26,4 +26,3 @@ Algoritmo VerificarPrimo
         Escribir "El número ", num, " no es primo.";
     FinSi
 FinAlgoritmo
-s

@@ -1,18 +1,18 @@
 Algoritmo AnoBisiesto
-    Definir año Como Entero;
+    Definir ano Como Entero;
 
     // Inicialización
-    año <- 0;
+    ano <- 0;
 
     // Entrada
-    Escribir "Ingrese un año:";
-    Leer año;
+    Escribir "Ingrese un ano:";
+    Leer ano;
 
     // Proceso
-    Si (año % 4 = 0 Y (año % 100 <> 0 O año % 400 = 0)) Entonces
-        Escribir "El año es bisiesto";
+    Si (ano % 4 = 0 Y (ano % 100 <> 0 O ano % 400 = 0)) Entonces
+        Escribir "El ano es bisiesto";
     Sino
-        Escribir "El año no es bisiesto";
+        Escribir "El ano no es bisiesto";
     FinSi
 
     // Salida
